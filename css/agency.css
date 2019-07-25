@@ -319,10 +319,14 @@ header.masthead .intro-text .intro-heading {
   text-align: center;
 }
 
-.portfolio-modal .modal-content h2 {
-  font-size: 3em;
-  margin-bottom: 15px;
+@media (min-width: 470px) {
+  .portfolio-modal .modal-content h2 {
+    
+    margin-bottom: 15px;
+  }
 }
+
+
 
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
@@ -670,9 +674,9 @@ section#contact :-ms-input-placeholder {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-ul.social-buttons {
-  margin-bottom: 0;
-}
+/* ul.social-buttons {
+  margin-bottom: 2px;
+} */
 
 ul.social-buttons li a {
   font-size: 20px;
@@ -691,6 +695,17 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
+.footeruno{
+  background: #212529;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+
+  .footerdos{
+    background: #212529;
+      border-radius: 10px;
+  }
 
 @media only screen 
 and (min-device-width : 320px) 
